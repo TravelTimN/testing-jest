@@ -6,6 +6,7 @@
 
 ## Use Jest in a dev environment
 - Adds Jest to a list called Dev Dependencies
+- `npm install --save-dev jest`
 
 ## Run Jest
 - `npm test`
