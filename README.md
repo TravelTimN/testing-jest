@@ -38,3 +38,15 @@ describe("calculator tests", () => {
 - View [Jest Matchers](https://jestjs.io/docs/using-matchers).
 
 </details>
+
+---
+
+## **IMPORTANT !**
+
+## Due to a change in Jest's default configuration, you need to add the following code to the top of your `button.test.js` file:
+
+```javascript
+/**
+ * @jest-environment jsdom
+ */
+```
